@@ -14,15 +14,15 @@ public class ObjectPoolTest : MonoBehaviour
 
     private IEnumerator SpawnRoutine()
     {
+        int count = 0;
         while (true)
         {
-
-            var obj = objectPool.GetPooledObject();
+           
+            GameObject obj = objectPool.GetPooledObject(count++ % 2);
 
             obj.transform.position = Vector3.zero;
             yield return new WaitForSeconds(spawnInterval);
 
         }
     }
-
 }

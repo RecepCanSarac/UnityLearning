@@ -246,8 +246,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efc48db791bb5b9429071e499fdcc704, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectPrefab: {fileID: 7051251687042910787, guid: 79f977871eb1a794e9c1b40c945f2f6f, type: 3}
-  poolSize: 5
+  pools:
+  - objectPrefab: {fileID: 7051251687042910787, guid: 79f977871eb1a794e9c1b40c945f2f6f, type: 3}
+    poolSize: 5
+  - objectPrefab: {fileID: 7051251687042910787, guid: dc79cbc1d02ab7e4e9fc156d9be62157, type: 3}
+    poolSize: 7
 --- !u!4 &1812075527
 Transform:
   m_ObjectHideFlags: 0
@@ -360,5 +363,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0779f93b9a9ebf241b1ebd53e8ab1854, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spawnInterval: 1
+  spawnInterval: 0.2
   objectPool: {fileID: 1812075526}
