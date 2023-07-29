@@ -575,6 +575,8 @@ MonoBehaviour:
     speed: 250
     damage: 3
     gold: 5
+    xp: 0
+    weakBulletDamage: 0
   goldAndScore: {fileID: 1721541600}
   target: {fileID: 112449910}
 --- !u!23 &335589521

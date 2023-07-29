@@ -11,7 +11,5 @@ public class TowerKalıtım : Towers
         this.fireRate = fireRate;
         this.attackRange = attackRange;
         this.upgradePrice = upgradePrice;
-
-
     }
 }

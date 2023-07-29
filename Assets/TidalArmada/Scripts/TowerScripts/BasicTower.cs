@@ -5,4 +5,6 @@ using UnityEngine;
 public class BasicTower : MonoBehaviour
 {
    public TowerKalýtým basicTower = new TowerKalýtým(25,1,3,25);
+
+
 }

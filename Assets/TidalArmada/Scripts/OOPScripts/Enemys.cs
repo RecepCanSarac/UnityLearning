@@ -9,4 +9,6 @@ public class Enemys
     public float speed;
     public float damage;
     public float gold;
+    public float xp;
+    public float weakBulletDamage;
 }
